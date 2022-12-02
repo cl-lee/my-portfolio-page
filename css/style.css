@@ -45,12 +45,20 @@ h3 {
 .work-container {
   display: grid;
   grid-template-columns: 30% 70%;
-
+  gap: 5vh;
 }
 
-#work {
+.work-container h2 {
   display: grid;
+  justify-content: flex-end;
 }
+
+/* #myworks {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 55% 22.5% 22.5%;
+  grid-template-areas: 
+} */
 
 #surf-report {
   background-image: url("../images/02-portfolio-4.jpg");
