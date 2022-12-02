@@ -28,6 +28,8 @@ header nav {
 .hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 20vh;
   color: white;
   display: grid;
@@ -35,9 +37,9 @@ header nav {
   grid-template-rows: 70% 20% 10%;
 }
 
-.hero-banner h3 {
+h3 {
   background-color: #F5F5F5;
-  grid-row: 2;
+  /* grid-column: 2 / 3; */
 }
 
 .work-container {
@@ -45,6 +47,24 @@ header nav {
   grid-template-columns: 30% 70%;
 
 }
+
+#work {
+  display: grid;
+}
+
+#surf-report {
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
 
 h1,
 h2,
