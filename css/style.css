@@ -110,6 +110,10 @@ header nav a {
   border: solid 0.25em #8c8c92;
 }
 
+#surf-report:hover {
+  color: #8c8c92;
+}
+
 #led-wall {
   grid-area: led;
   background-image: url("../images/02-portfolio-1.jpg");
