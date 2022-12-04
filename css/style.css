@@ -10,19 +10,26 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 5vh;
   padding: 1%;
-  background-color: #F5F5F5;
+  background-color: #252527;
 }
 
 header h1 {
-  justify-content: flex-start;
+  background-color: #8c8c92;
+  color: #212022;
+  width: 25vw;
+  text-align: end;
+  padding-right: 3%;
 }
 
 header nav {
+  display: flex;
   justify-content: flex-end;
+  align-items: center;
+  color: #8c8c92;
 }
 
 .hero-banner {
@@ -57,11 +64,11 @@ h3 {
   display: grid;
   gap: 3vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 45vh 20vh 20vh;
   grid-template-areas:
   "surf surf"
   "led calc"
-  "pastel run"
+  "pastel run";
 }
 
 #surf-report {
