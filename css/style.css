@@ -9,6 +9,19 @@ body {
   line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 /* Styles the header */
 
 header {
@@ -49,7 +62,7 @@ header nav a {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 28vh;
+  height: 25vh;
   width: 100%;
 }
 
@@ -58,22 +71,24 @@ header nav a {
   background-color: #8c8c92;
   color: #212022;
   position: absolute;
-  bottom: 65%;
+  bottom: 68%;
   right: 4%;
 }
 
-/* Styles the "Works" cards */
+/* Styles the "works" cards */
 
 .work-container {
-  width: 100%;
+  width: 88%;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 5vh;
+  margin: 2.5%;
 }
 
 .work-container h2 {
   display: grid;
   justify-content: flex-end;
+  border-right: solid 0.1em #252527;
 }
 
 #myworks {
@@ -92,6 +107,7 @@ header nav a {
   background-image: url("../images/02-portfolio-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border: solid 0.25em #8c8c92;
 }
 
 #led-wall {
@@ -99,6 +115,7 @@ header nav a {
   background-image: url("../images/02-portfolio-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border: solid 0.25em #8c8c92;
 }
 
 #calculator {
@@ -106,6 +123,7 @@ header nav a {
   background-image: url("../images/02-portfolio-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border: solid 0.25em #8c8c92;
 }
 
 #pastel-puzzels {
@@ -113,6 +131,7 @@ header nav a {
   background-image: url("../images/02-portfolio-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border: solid 0.25em #8c8c92;
 }
 
 #run-buddy {
@@ -120,17 +139,5 @@ header nav a {
   background-image: url("../images/02-run-buddy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
+  border: solid 0.25em #8c8c92;
 }
