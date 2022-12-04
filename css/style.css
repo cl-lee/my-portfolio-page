@@ -53,44 +53,48 @@ h3 {
   justify-content: flex-end;
 }
 
-/* #myworks {
+#myworks {
   display: grid;
+  gap: 3vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 55% 22.5% 22.5%;
-  grid-template-areas: 
-} */
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-areas:
+  "surf surf"
+  "led calc"
+  "pastel run"
+}
 
 #surf-report {
+  grid-area: surf;
   background-image: url("../images/02-portfolio-4.jpg");
-  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #led-wall {
+  grid-area: led;
   background-image: url("../images/02-portfolio-1.jpg");
-  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #calculator {
+  grid-area: calc;
   background-image: url("../images/02-portfolio-2.jpg");
-  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #pastel-puzzels {
+  grid-area: pastel;
   background-image: url("../images/02-portfolio-3.jpg");
-  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #run-buddy {
+  grid-area: run;
   background-image: url("../images/02-run-buddy.jpg");
-  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
