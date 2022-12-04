@@ -9,47 +9,63 @@ body {
   line-height: 1.5;
 }
 
+/* Styles the header */
+
 header {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 5vh;
-  padding: 1%;
   background-color: #252527;
 }
+
+/* Styles the name in header */
 
 header h1 {
   background-color: #8c8c92;
   color: #212022;
   width: 25vw;
   text-align: end;
-  padding-right: 3%;
+  padding-right: 4%;
+  margin: 3% 0% 3% 0%;
 }
+
+/* Styles the navigation bar in header */
 
 header nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: #8c8c92;
+  margin-right: 5%;
 }
+
+header nav a {
+  padding: 1%;
+  color: #8c8c92;
+}
+
+/* Styles the hero banner */
 
 .hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20vh;
-  color: white;
-  display: grid;
-  grid-template-columns: 60% 30% 10%;
-  grid-template-rows: 70% 20% 10%;
+  height: 28vh;
+  width: 100%;
 }
 
-h3 {
-  background-color: #F5F5F5;
-  /* grid-column: 2 / 3; */
+.hero-banner h2 {
+  display: inline-block;
+  background-color: #8c8c92;
+  color: #212022;
+  position: absolute;
+  bottom: 65%;
+  right: 4%;
 }
+
+/* Styles the "Works" cards */
 
 .work-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 5vh;
@@ -66,9 +82,9 @@ h3 {
   grid-template-columns: 50% 50%;
   grid-template-rows: 45vh 20vh 20vh;
   grid-template-areas:
-  "surf surf"
-  "led calc"
-  "pastel run";
+    "surf surf"
+    "led calc"
+    "pastel run";
 }
 
 #surf-report {
