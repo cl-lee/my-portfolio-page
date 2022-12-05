@@ -64,6 +64,7 @@ header nav a {
   background-repeat: no-repeat;
   height: 25vh;
   width: 100%;
+  position: relative;
 }
 
 .hero-banner h2 {
@@ -71,8 +72,9 @@ header nav a {
   background-color: #8c8c92;
   color: #212022;
   position: absolute;
-  bottom: 68%;
+  bottom: 10%;
   right: 4%;
+  padding: 0.25em;
 }
 
 /* Styles the "works" cards */
@@ -93,7 +95,11 @@ header nav a {
 }
 
 .page-section {
-  border-right: solid 0.1em #252527;
+  border-right: solid 0.2em #252527;
+}
+
+.page-section h2 {
+  font-size: 2em;
 }
 
 #myworks {
