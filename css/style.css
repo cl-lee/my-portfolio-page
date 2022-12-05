@@ -38,7 +38,7 @@ header {
 /* Styles the name in header */
 
 header h1 {
-  background-color: #8c8c92;
+  background-color: var(--primary-color);
   color: #212022;
   width: 25vw;
   text-align: end;
@@ -58,7 +58,7 @@ header nav {
 header nav a {
   padding: 1%;
   font-size: 1.25em;
-  color: #8c8c92;
+  color: var(--primary-color);
   text-decoration-thickness: 0.12em;
   text-underline-offset: 0.75vh;
 }
@@ -96,16 +96,18 @@ header nav a {
 
 /* Styles the main content titles */
 
-.work-container h2 {
-  font-size: 2em;
-  text-align: right;
-  word-spacing: 2000vw;
-  padding-right: 1vw;
+.page-section {
+  border-right: solid 0.2em var(--secondary-color);
 }
 
-.page-section {
-  border-right: solid 0.2em #252527;
+.work-container h2 {
+  font-size: 2.25em;
+  text-align: right;
+  padding-right: 1vw;
+  
 }
+
+/* Styles the portfolio works section */
 
 #myworks {
   display: grid;
@@ -119,7 +121,7 @@ header nav a {
 }
 
 #myworks a:hover{
-  color: #8c8c92;
+  color: var(--primary-color);
   opacity: 1;
 }
 
