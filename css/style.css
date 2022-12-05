@@ -101,6 +101,14 @@ header nav a {
     "led calc"
     "pastel run";
 }
+/* 
+.descriptors {
+  background-color: #8c8c92;
+  color: #212022;
+  padding: 0.5%;
+  text-decoration: none;
+  width: 18%;
+} */
 
 #myworks a:hover {
   color: #8c8c92;
@@ -114,6 +122,17 @@ header nav a {
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
   opacity: 0.7;
+  position: relative;
+}
+
+#surf-report .descriptors {
+  background-color: #8c8c92;
+  color: #212022;
+  padding: 0.5%;
+  text-decoration: none;
+  width: 18%;
+  position: absolute;
+  bottom: 5%; 
 }
 
 #led-wall {
@@ -123,6 +142,17 @@ header nav a {
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
   opacity: 0.7;
+  position: relative;
+}
+
+#led-wall .descriptors {
+  background-color: #8c8c92;
+  color: #212022;
+  padding: 0.5%;
+  text-decoration: none;
+  width: auto;
+  position: absolute;
+  bottom: 5%; 
 }
 
 #calculator {
