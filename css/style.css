@@ -104,7 +104,6 @@ header nav a {
   font-size: 2.25em;
   text-align: right;
   padding-right: 1vw;
-  
 }
 
 /* Styles the portfolio works section */
@@ -138,12 +137,18 @@ header nav a {
 
 #surf-report {
   grid-area: surf;
-  background-image: url("../images/02-portfolio-4.jpg");
+  /* background-image: url("../images/02-portfolio-4.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   border: solid 0.25em #8c8c92;
   position: relative;
   opacity: 0.7;
+}
+
+#surf-report > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 #led-wall {
@@ -190,4 +195,5 @@ header nav a {
   width: 50%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
