@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #8c8c92;
+  --secondary-color: #252527;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,7 +32,7 @@ p {
 header {
   display: grid;
   grid-template-columns: 25% 75%;
-  background-color: #252527;
+  background-color: var(--secondary-color);
 }
 
 /* Styles the name in header */
@@ -47,13 +52,15 @@ header nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #8c8c92;
   margin-right: 5%;
 }
 
 header nav a {
   padding: 1%;
+  font-size: 1.25em;
   color: #8c8c92;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.75vh;
 }
 
 /* Styles the hero banner */
@@ -69,15 +76,15 @@ header nav a {
 
 .hero-banner h2 {
   display: inline-block;
-  background-color: #8c8c92;
-  color: #212022;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   position: absolute;
   bottom: 10%;
   right: 4%;
   padding: 0.25em;
 }
 
-/* Styles the "works" cards */
+/* Styles the main content */
 
 .work-container {
   width: 88%;
@@ -87,19 +94,17 @@ header nav a {
   margin: 2.5%;
 }
 
+/* Styles the main content titles */
+
 .work-container h2 {
-  grid-column: 1 / 2;
-  display: grid;
-  justify-content: flex-end;
-  padding-right: 4%;
+  font-size: 2em;
+  text-align: right;
+  word-spacing: 2000vw;
+  padding-right: 1vw;
 }
 
 .page-section {
   border-right: solid 0.2em #252527;
-}
-
-.page-section h2 {
-  font-size: 2em;
 }
 
 #myworks {
