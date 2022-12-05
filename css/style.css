@@ -56,8 +56,8 @@ header nav {
 }
 
 header nav a {
-  padding: 1%;
-  font-size: 1.25em;
+  padding: 2%;
+  font-size: 1rem;
   color: var(--primary-color);
   text-decoration-thickness: 0.12em;
   text-underline-offset: 0.75vh;
@@ -75,6 +75,7 @@ header nav a {
 }
 
 .hero-banner h2 {
+  font-size: auto;
   display: inline-block;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -96,14 +97,19 @@ header nav a {
 
 /* Styles the main content titles */
 
+.work-container h2 {
+  text-align: right;
+  padding-right: 1vw;
+}
+
 .page-section {
   border-right: solid 0.2em var(--secondary-color);
 }
 
-.work-container h2 {
-  font-size: 2.25em;
-  text-align: right;
-  padding-right: 1vw;
+/* Styles the text in about me section */
+
+#about-text {
+  font-size: 0.8rem;
 }
 
 /* Styles the portfolio works section */
@@ -133,6 +139,10 @@ header nav a {
   position: absolute;
   bottom: 6%;
   z-index: 1;
+}
+
+.descriptors p {
+  font-size: 0.8em;
 }
 
 #surf-report img {
@@ -200,9 +210,41 @@ header nav a {
   overflow: clip;
 }
 
+/* Styles the contacts section */
+
 .contacts {
   width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+/* sets formatting for smaller screens */
+
+@media screen and (max-width: 480px) {
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 15vh;
+  }
+
+  header h1 {
+    width: fit-content;
+  }
+
+  header nav {
+    justify-content: flex-start;
+  }
+
+  .hero-banner {
+    height: 20vh;
+  }
+
+  .hero-banner h2 {
+    font-size: 1rem;
+  }
+
+  .work-container {
+    grid-template-rows: 30% 60% 10%;
+  }
