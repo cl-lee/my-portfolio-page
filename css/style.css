@@ -102,16 +102,18 @@ header nav a {
     "pastel run";
 }
 
+#myworks a:hover {
+  color: #8c8c92;
+  opacity: 1;
+}
+
 #surf-report {
   grid-area: surf;
   background-image: url("../images/02-portfolio-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
-}
-
-#surf-report:hover {
-  color: #8c8c92;
+  opacity: 0.7;
 }
 
 #led-wall {
@@ -120,6 +122,7 @@ header nav a {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
+  opacity: 0.7;
 }
 
 #calculator {
@@ -128,6 +131,7 @@ header nav a {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
+  opacity: 0.7;
 }
 
 #pastel-puzzels {
@@ -136,6 +140,7 @@ header nav a {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
+  opacity: 0.7;
 }
 
 #run-buddy {
@@ -144,4 +149,5 @@ header nav a {
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 0.25em #8c8c92;
+  opacity: 0.7;
 }
