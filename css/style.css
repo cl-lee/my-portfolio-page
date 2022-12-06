@@ -61,7 +61,6 @@ header nav {
 
 header nav a {
   padding: 2%;
-  font-size: 1rem;
   color: var(--primary-color);
   text-decoration-thickness: 0.12em;
   text-underline-offset: 0.75vh;
@@ -253,10 +252,6 @@ main h2 {
       "run";
   }
 
-  .contacts {
-    width: auto;
-    justify-content: space-around;
-  }
 }
 
 @media screen and (max-width: 1000px) {
