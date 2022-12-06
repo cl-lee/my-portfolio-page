@@ -45,8 +45,8 @@ header h1 {
   padding-right: 1vw;
   padding-left: 3vw;
   margin: 1.5% 0 1.5% 0;
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   align-items: center;
   position: absolute;
   bottom: -0.5rem;
@@ -209,18 +209,17 @@ main h2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "h1"
-    "nav";
   }
 
   header h1 {
-    grid-area: h1;
-    display: inline;
+    bottom: 1em;
+    /* left: 3em;
+    margin: 0;
+    padding: 0; */
   }
 
   header nav {
-    grid-area: nav;
+    grid-row: 2 / 3;
     display: flex;
     justify-content: flex-start;
   }
