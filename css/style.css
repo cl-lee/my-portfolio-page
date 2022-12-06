@@ -41,6 +41,7 @@ header {
 header h1 {
   background-color: var(--primary-color);
   color: #212022;
+  font-size: 2rem;
   white-space: nowrap;
   padding-right: 1vw;
   padding-left: 3vw;
@@ -164,7 +165,7 @@ main h2 {
 #calculator,
 #pastel-puzzels,
 #run-buddy {
-  border: solid 0.25em #8c8c92;
+  border: solid 0.25em var(--primary-color);
   position: relative;
   overflow: clip;
 }
@@ -240,21 +241,13 @@ main h2 {
     border-bottom: solid 0.2em var(--secondary-color);
   }
 
-  #myworks {
-    display: grid;
-    grid-template-rows: 30vh repeat(4, 20vh);
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "surf"
-      "led"
-      "calc"
-      "pastel"
-      "run";
-  }
-
 }
 
 @media screen and (max-width: 1000px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
 
   #myworks {
     display: grid;
