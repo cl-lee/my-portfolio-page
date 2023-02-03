@@ -78,6 +78,12 @@ header nav a {
   position: relative;
 }
 
+.hero-banner img {
+  width: auto;
+  max-height: 24vh;
+  border-radius: 50%;
+}
+
 .hero-banner h2 {
   font-size: auto;
   display: inline-block;
