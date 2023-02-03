@@ -78,10 +78,16 @@ header nav a {
   position: relative;
 }
 
+#hero-container {
+  display: flex;
+  height:100%;
+}
+
 .hero-banner img {
   width: auto;
   max-height: 25vh;
   border-radius: 50%;
+  align-self: center;
 }
 
 .hero-banner h2 {
