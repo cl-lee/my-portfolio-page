@@ -73,14 +73,14 @@ header nav a {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   position: relative;
 }
 
 .hero-banner img {
   width: auto;
-  max-height: 24vh;
+  max-height: 25vh;
   border-radius: 50%;
 }
 
@@ -222,7 +222,7 @@ main h2 {
   }
 
   .hero-banner {
-    height: 20vh;
+    height: 35vh;
   }
 
   .hero-banner h2 {
